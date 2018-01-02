@@ -1,0 +1,41 @@
+.conntection .header_nav a {
+    color: #333;
+}
+.conntection .header_nav a:hover{
+    color: #f26464;
+}
+.conntection #showMenu a:hover{
+    color: #f26464;
+}
+.conntection_nav{
+    background-image: url("../img/connection_bd.png");
+    width: 100%;
+}
+.word{
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+}
+.word h2{
+    font-size: 40px;
+}
+.word h4{
+    font-size: 20px;
+}
+.main{
+    text-align: center;
+    padding: 120px 0;
+}
+.main figure img{
+    width: 68px;
+    height: 68px;
+}
+.text1{
+    font-size: 18px;
+    color: #333;
+    margin: 16px;
+}
+.text2{
+    font-size: 14px;
+    color: #999;
+}
