@@ -39,9 +39,6 @@ html,body{
     font-size: 14px;
     color: white;
     cursor: pointer;
-    position: absolute;
-    right: 0;
-    top:0;
 }
 .header_nav li{
     float: left;
@@ -349,6 +346,11 @@ h5{
         font-size: 16px;
         margin-top: 25px;
     }
+    .header_nav{
+        position: absolute;
+        right: 0;
+        top:0;
+    }
 }
 @media screen and (min-width: 960px) and (max-width: 1199px){
     .main_2{
@@ -383,6 +385,11 @@ h5{
     }
     .list figure {
         width: 180px;
+    }
+    .header_nav{
+        position: absolute;
+        right: 0;
+        top:0;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 959px){
@@ -422,6 +429,11 @@ h5{
     .list3 {
         width: 30%;
         margin: 40px calc((100%/3 - 30%)/2) 50px;
+    }
+    .header_nav{
+        position: absolute;
+        right: 0;
+        top:0;
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
@@ -477,6 +489,11 @@ h5{
     .list3 {
         width: 30%;
         margin: 50px calc((100%/3 - 30%)/2) 88px;
+    }
+    .header_nav{
+        position: absolute;
+        right: 0;
+        top:0;
     }
 }
 @media only screen and (max-width: 479px){
@@ -548,6 +565,18 @@ h5{
     }
     .footer3{
         width: 100%;
+        margin-right: 0;
+    }
+    .header_nav{
+        position: absolute;
+        right: 0;
+        top:0;
+        width: 225px;
+    }
+    .header_nav li {
+        float: left;
+        padding: 0 5px;
+        line-height: 20px;
     }
 }
 .footer2_left a:hover{
